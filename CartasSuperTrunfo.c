@@ -25,10 +25,10 @@ int main() {
     scanf("%d", &carta1.populacao);
     
     printf("Digite a area: ");
-    scanf("%d", &carta1.area);
+    scanf("%f", &carta1.area);
    
     printf("Digite o PIB: ");
-    scanf("%d", &carta1.pib);
+    scanf("%f", &carta1.pib);
    
     printf("Digite o numero de pontos turisticos: ");
     scanf("%d", &carta1.pontosTuristicos);
@@ -43,7 +43,7 @@ int main() {
     scanf("%fd", &carta2.area);
     
     printf("Digite o PIB: ");
-    scanf("%d", &carta2.pib);
+    scanf("%f", &carta2.pib);
     
     printf("Digite o numero de pontos turisticos: ");
     scanf("%d", &carta2.pontosTuristicos);
@@ -51,14 +51,14 @@ int main() {
     // Exibindo os dados cadastrados
     printf("\n===== Dados da Carta 1 =====\n");
     printf("Populacao: %d\n", carta1.populacao);
-    printf("Area: %.2d\n", carta1.area);
-    printf("PIB: %.2d\n", carta1.pib);
+    printf("Area: %.2f\n", carta1.area);
+    printf("PIB: %.2f\n", carta1.pib);
     printf("Pontos Turisticos: %d\n", carta1.pontosTuristicos);
 
     printf("\n===== Dados da Carta 2 =====\n");
     printf("Populacao: %d\n", carta2.populacao);
-    printf("Area: %.2d\n", carta2.area);
-    printf("PIB: %.2d\n", carta2.pib);
+    printf("Area: %.2f\n", carta2.area);
+    printf("PIB: %.2f\n", carta2.pib);
     printf("Pontos Turisticos: %d\n", carta2.pontosTuristicos);
 
     
